@@ -36,7 +36,7 @@ if (isset($_SESSION['prn_no']) && isset($_SESSION['username']))
     </div>
     <img src="resources/logIN_nav_logo.png" id="loginnav">
 
-    <div class="container card shadow-sm mt-2 vh-100">
+    <div class="container card shadow-sm mt-2">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
