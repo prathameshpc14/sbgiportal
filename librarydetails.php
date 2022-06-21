@@ -4,7 +4,7 @@ if (isset($_SESSION['prn_no']))
 {  
     include 'db_connect.php';
     $someID = $_SESSION['prn_no'];
-    $sql1 = "SELECT * FROM library_info WHERE prnno = $someID ORDER BY dateissued DESC;";
+    $sql1 = "SELECT * FROM LibraryDetails WHERE prnno = $someID ORDER BY dateissued DESC;";
     $result = mysqli_query($conn, $sql1);
 ?>
 <!DOCTYPE html>
