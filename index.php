@@ -46,8 +46,9 @@
                             <input type="password" name="password" id="form3Example4" class="form-control form-control-lg" placeholder="Enter password"  required />
                         </div>
                         <div class="d-flex justify-content-between align-items-center">
-                            <!-- forgot pass -->
+                            <!-- forgot pass 
                             <a href="#!" class="text-body">Forgot password?</a>
+                            -->
                         </div>
                         <!-- Login button -->
                         <div class="text-center text-lg-start mt-2 pt-2">
