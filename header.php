@@ -11,7 +11,7 @@
     </button>
 
     <!-- Collapsible wrapper -->
-    <div class="collapse navbar-collapse text-center" id="navbarText">
+    <div class="collapse navbar-collapse" id="navbarText">
 
         <!-- Left links -->
         <ul class="navbar-nav me-auto mb-lg-0">
@@ -33,7 +33,7 @@
         </ul>
         <!-- Left links -->
 
-        <div class="d-flex text-center">
+        <div class="d-flex">
             
             <div class="dropdown mx-0 ">
 
