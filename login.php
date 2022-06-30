@@ -23,7 +23,7 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
     }
     else
     {
-        $sql = "SELECT * FROM sql6500396.studentdb WHERE prnno='$uname' AND stupass='$pass';";
+        $sql = "SELECT * FROM studentdb WHERE prnno='$uname' AND stupass='$pass';";
         $result = mysqli_query($conn, $sql);
         if (mysqli_num_rows($result) === 1) 
         {
