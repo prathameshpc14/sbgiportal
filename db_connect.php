@@ -1,12 +1,12 @@
 <?php
 
-$sname= "sql6.freemysqlhosting.net";
+$sname= "sql6.freesqldatabase.com";
 
-$unmae= "sql6500396";
+$unmae= "sql6503160";
 
-$password = "zCWNFBbJnG";
+$password = "erhjuqP4Jd";
 
-$db_name = "sql6500396";
+$db_name = "sql6503160";
 
 $conn = mysqli_connect($sname, $unmae, $password, $db_name);
 
